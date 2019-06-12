@@ -1,0 +1,15 @@
+server:
+  port: 9999
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+    registerWithEureka: false
+    fetchRegistry: true
+
+spring:
+  security:
+    user:
+      name: admin
+      password: admin

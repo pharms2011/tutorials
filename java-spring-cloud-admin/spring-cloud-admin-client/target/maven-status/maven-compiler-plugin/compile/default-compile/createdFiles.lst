@@ -1,0 +1,3 @@
+com\inertia\SpringBootAdminClient.class
+com\inertia\controller\ServiceInstanceRestController.class
+com\inertia\controller\GreetController.class

@@ -1,0 +1,20 @@
+server:
+  port: 8060
+
+spring:
+  application:
+    name: "greet-service"
+
+management:
+  endpoints:
+  web:
+    exposure:
+    include: "*"
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+    registerWithEureka: true
+    fetchRegistry: true
+
