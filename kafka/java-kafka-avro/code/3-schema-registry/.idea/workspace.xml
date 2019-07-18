@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="697ab161-fea5-4e16-9e70-840ff7d27948" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../2-start-kafka/.idea/2-start-kafka.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2-start-kafka/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2-start-kafka/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../2-start-kafka/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../angular-my-first-app" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../angular-my-first-app" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../angular-protractor-jasmine-tour-of-heros" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../angular-protractor-jasmine-tour-of-heros" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-avro-course" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-avro-course" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,6 +68,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -105,7 +104,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1455" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12371946" />
