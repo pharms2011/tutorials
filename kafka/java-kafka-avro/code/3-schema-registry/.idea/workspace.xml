@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="697ab161-fea5-4e16-9e70-840ff7d27948" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../angualr-material-demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../angualr-material-demo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../angualr-material-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../angualr-material-demo/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../angular-my-first-app" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../angular-my-first-app" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../angular-protractor-jasmine-tour-of-heros" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../angular-protractor-jasmine-tour-of-heros" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -43,9 +45,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1909" />
-    <option name="width" value="1940" />
-    <option name="height" value="2171" />
+    <option name="x" value="1908" />
+    <option name="width" value="1941" />
+    <option name="height" value="2172" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
