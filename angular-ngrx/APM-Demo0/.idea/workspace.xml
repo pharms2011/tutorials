@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eff2345f-5651-4e54-b967-fd8fa98bf08d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../angualr-material-demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../angualr-material-demo/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../angualr-material-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../angualr-material-demo/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../angular-my-first-app" beforeDir="false" afterPath="$PROJECT_DIR$/../../angular-my-first-app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../angular-protractor-jasmine-tour-of-heros" beforeDir="false" afterPath="$PROJECT_DIR$/../../angular-protractor-jasmine-tour-of-heros" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kafka/java-kafka-avro/code/3-schema-registry/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../kafka/java-kafka-avro/code/3-schema-registry/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kafka/java-kafka-avro/__MACOSX/code/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kafka/java-kafka-avro/__MACOSX/code/4-rest-proxy/._rest-proxy-insomnia.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../kafka/java-kafka-avro/code/kafka-avro-course" beforeDir="false" afterPath="$PROJECT_DIR$/../../kafka/java-kafka-avro/code/kafka-avro-course" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -81,13 +78,14 @@
         <option value="$PROJECT_DIR$/src/app/products/state/product.reducer.ts" />
         <option value="$PROJECT_DIR$/src/app/products/product.module.ts" />
         <option value="$PROJECT_DIR$/src/app/products/product-list/product-list.component.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1908" />
-    <option name="width" value="1941" />
-    <option name="height" value="2172" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1909" />
+    <option name="width" value="1940" />
+    <option name="height" value="2171" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -207,15 +205,15 @@
       <workItem from="1563488926210" duration="908000" />
       <workItem from="1563490092469" duration="891000" />
       <workItem from="1563548127639" duration="440000" />
-      <workItem from="1563548948370" duration="22000" />
+      <workItem from="1563548948370" duration="962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7675000" />
+    <option name="totallyTimeSpent" value="8615000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1272" y="0" width="1294" height="1448" extended-state="0" />
+    <frame x="-7" y="-7" width="2575" height="1455" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5043755" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -232,7 +230,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32945737" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.7162683" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
