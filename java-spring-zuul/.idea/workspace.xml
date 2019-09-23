@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="085ff21c-f90b-4f25-8a24-3f049c89a7be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../java-cassandra-zipkin-kafaka/accs-zipkin-tracing-infra-with-kafka-cassandra-master/java-spring-zipkin-cassandra/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-cassandra-zipkin-kafaka/accs-zipkin-tracing-infra-with-kafka-cassandra-master/java-spring-zipkin-cassandra/src/main/java/com/inertia/ZipkinApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-cassandra-zipkin-kafaka/accs-zipkin-tracing-infra-with-kafka-cassandra-master/java-spring-zipkin-cassandra/src/main/java/com/inertia/config/CassandraConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-cassandra-zipkin-kafaka/accs-zipkin-tracing-infra-with-kafka-cassandra-master/java-spring-zipkin-cassandra/src/main/java/com/inertia/properties/ZipkinCassandraProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-cassandra-zipkin-kafaka/accs-zipkin-tracing-infra-with-kafka-cassandra-master/java-spring-zipkin-cassandra/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-cassandra-zipkin-kafaka/accs-zipkin-tracing-infra-with-kafka-cassandra-master/java-spring-zipkin-cassandra/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-cassandra-zipkin-kafaka/accs-zipkin-tracing-infra-with-kafka-cassandra-master/zipkinserver/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-eureka-server/src/main/java/com/inertia/EurekaServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-spring-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-spring-zipkin/src/main/java/com/inertia/ZipkinServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-spring-zipkin/src/main/java/com/inertia/config/CassandraConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-spring-zipkin/src/main/java/com/inertia/properties/CassandraProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-spring-zipkin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/inertia/ZuulGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zipkinclient1/src/main/java/com/inertia/ZipkinServiceOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zipkinclient1/src/main/java/com/inertia/config/MessageResourceOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zipkinclient1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zipkinclient2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zipkinclient2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zipkinclient2/src/main/java/com/inertia/ZipkinServiceTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zipkinclient2/src/main/java/com/inertia/resource/GreetingsResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zipkinclient2/src/main/java/com/inertia/services/GreetServiceOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zipkinclient2/src/main/java/com/inertia/services/GreetServiceTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zipkinclient2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zipkinclient3/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zipkinclient3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zipkinclient3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zipkinclient3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zipkinclient3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zipkinclient3/src/main/java/com/inertia/ZipkinServiceThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zipkinclient3/src/main/java/com/inertia/resources/MessageResourceThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zipkinclient3/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/e2e/protractor.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/e2e/src/app.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/e2e/src/app.po.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/app.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/home/menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/home/menu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/home/menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/home/menu.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/home/page-not-found.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/home/page-not-found.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/home/shell.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/home/shell.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/home/shell.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/home/shell.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/home/shell.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/home/shell.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/home/welcome.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/home/welcome.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/home/welcome.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/home/welcome.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/products/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/products/product-list/product-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/products/state/product.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/products/state/product.reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/shared/generic-validator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/shared/generic-validator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/shared/number.validator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/shared/number.validator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/shared/shared.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/shared/shared.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/user/auth-guard.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/user/auth-guard.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/user/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/user/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/user/login.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/user/login.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/user/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/user/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/user/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/user/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/user/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/user/user.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/user/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/app/user/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/browserslist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/src/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-ngrx/angular-ngrx-pluralsite-demo/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spring-boot-demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-spring-boot-demo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spring-boot-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-spring-boot-demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spring-boot-demo/SpringBootDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spring-eureka/Eureka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spring-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-spring-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spring-eureka/src/main/java/com/inertia/Eureka.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-spring-eureka/src/main/java/com/inertia/Eureka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spring-eureka/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spring-eureka/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spring-eureka/target/classes/com/inertia/Eureka.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-spring-eureka/target/classes/com/inertia/Eureka.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spring-eureka/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spring-eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spring-eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spring-eureka/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-spring-eureka/target/spring-boot-eureka-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka/java-kafka-avro/java/kafka-avro-v1/src/main/resources/avro/customer-v1.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/java-kafka-avro/java/kafka-avro-v1/src/main/resources/avro/customer-v1.avsc" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/inertia/ZuulGatewayApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/inertia/ZuulGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zuul-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zuul-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zuul-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="width" value="1941" />
+    <option name="height" value="2172" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="java-spring-zuul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-spring-zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-spring-zuul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-spring-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-spring-zuul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-spring-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-spring-zuul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-spring-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-spring-zuul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-spring-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="inertia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-spring-zuul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-spring-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ZuulGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="java-spring-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.inertia.ZuulGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="085ff21c-f90b-4f25-8a24-3f049c89a7be" name="Default Changelist" comment="" />
+      <created>1564441619960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564441619960</updated>
+      <workItem from="1564441625994" duration="3094000" />
+      <workItem from="1564508364300" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3105000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2575" height="1455" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Designer" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20596421" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Spring" order="6" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.33155894" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32955405" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Maven-2 Build" order="1" weight="0.32962227" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.2719682" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/inertia/ZuulGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

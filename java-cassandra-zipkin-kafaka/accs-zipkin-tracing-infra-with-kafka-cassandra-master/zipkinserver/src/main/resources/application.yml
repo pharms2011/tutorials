@@ -1,0 +1,12 @@
+zipkin:
+
+#  kafka:
+#    bootstrap-servers: 127.0.0.1:9092
+#    topic: zipkin-logs
+#    group-id: zipkin-group-v1
+
+  cassandra3:
+    contact-points: 172.17.0.3, 172.17.0.2
+    username:
+    password:
+    keyspace: zipkin

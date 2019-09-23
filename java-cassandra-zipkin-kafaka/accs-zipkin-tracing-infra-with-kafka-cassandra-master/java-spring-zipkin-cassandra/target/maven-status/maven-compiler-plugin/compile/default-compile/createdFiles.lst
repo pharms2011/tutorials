@@ -1,0 +1,3 @@
+com\inertia\config\CassandraConfig.class
+com\inertia\properties\ZipkinCassandraProperties.class
+com\inertia\ZipkinApplication.class

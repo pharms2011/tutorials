@@ -6,7 +6,7 @@ import {Routes, RouterModule} from '@angular/router';
 
 import { AppComponent } from './app.component';
 import {MaterialModule} from './shared/material.module';
-import {HttpClientModule} from '@angular/common/http';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {ContactmanagerModule} from './contactmanager/contactmanager.module';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
@@ -30,7 +30,8 @@ const routes: Routes = [
     HttpClientModule,
     RouterModule.forRoot(routes),
     ContactmanagerModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

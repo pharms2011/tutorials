@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java-spring-zipkin" />
+        <module name="zipkin-client-1" />
+        <module name="zipkinclient3" />
+        <module name="zipkinclient2" />
+        <module name="kafka-avro-v1" />
+        <module name="java-eureka-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kafka-producer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="java-eureka-server" options="-parameters" />
+      <module name="java-spring-zipkin" options="" />
+      <module name="zipkin-client-1" options="-parameters" />
+      <module name="zipkinclient2" options="-parameters" />
+      <module name="zipkinclient3" options="-parameters" />
+    </option>
+  </component>
+</project>

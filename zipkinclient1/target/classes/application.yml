@@ -1,0 +1,22 @@
+spring:
+
+  application:
+    name: zipkin-service-one
+
+  zipkin:
+    base-url: http://zipkin-server
+    enabled: true
+
+    sleuth:
+      sampler:
+        probability: 1.0
+
+server:
+  port: 9090
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka
+    register-with-eureka: true
+    fetch-registry: true

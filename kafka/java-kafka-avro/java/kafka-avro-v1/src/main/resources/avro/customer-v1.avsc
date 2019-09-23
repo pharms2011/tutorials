@@ -1,14 +1,50 @@
 {
-     "type": "record",
-     "namespace": "com.example",
-     "name": "Customer",
-     "version": "1",
-     "fields": [
-       { "name": "first_name", "type": "string", "doc": "First Name of Customer" },
-       { "name": "last_name", "type": "string", "doc": "Last Name of Customer" },
-       { "name": "age", "type": "int", "doc": "Age at the time of registration" },
-       { "name": "height", "type": "float", "doc": "Height at the time of registration in cm" },
-       { "name": "weight", "type": "float", "doc": "Weight at the time of registration in kg" },
-       { "name": "automated_email", "type": "boolean", "default": true, "doc": "Field indicating if the user is enrolled in marketing emails" }
-     ]
+  "type": "record",
+  "name": "CustomerV1",
+  "namespace": "com.inertia",
+  "fields": [
+    {
+      "name": "first_name",
+      "type": {
+        "type": "string",
+        "avro.java.string": "String"
+      },
+      "doc": "First Name of Customer"
+    },
+    {
+      "name": "last_name",
+      "type": {
+        "type": "string",
+        "avro.java.string": "String"
+      },
+      "doc": "Last Name of Customer"
+    },
+    {
+      "name": "age",
+      "type": "int",
+      "doc": "Age at the time of registration"
+    },
+    {
+      "name": "height",
+      "type": "float",
+      "doc": "Height at the time of registration in cm"
+    },
+    {
+      "name": "birthday",
+      "type": "int",
+      "logical-type": "date",
+      "doc": "Height at the time of registration in cm"
+    },
+    {
+      "name": "weight",
+      "type": "float",
+      "doc": "Weight at the time of registration in kg"
+    },
+    {
+      "name": "automated_email",
+      "type": "boolean",
+      "doc": "Field indicating if the user is enrolled in marketing emails",
+      "default": true
+    }
+  ]
 }

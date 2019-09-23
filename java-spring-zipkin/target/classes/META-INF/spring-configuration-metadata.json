@@ -1,0 +1,44 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.inertia.properties.CassandraProperties",
+      "name": "zipkin.storage.cassandra3",
+      "type": "com.inertia.properties.CassandraProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.inertia.properties.CassandraProperties",
+      "name": "zipkin.storage.cassandra3.contact-points",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.inertia.properties.CassandraProperties",
+      "defaultValue": false,
+      "name": "zipkin.storage.cassandra3.ensure-schema",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.inertia.properties.CassandraProperties",
+      "name": "zipkin.storage.cassandra3.keyspace",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.inertia.properties.CassandraProperties",
+      "name": "zipkin.storage.cassandra3.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.inertia.properties.CassandraProperties",
+      "defaultValue": false,
+      "name": "zipkin.storage.cassandra3.use-ssl",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.inertia.properties.CassandraProperties",
+      "name": "zipkin.storage.cassandra3.username",
+      "type": "java.lang.String"
+    }
+  ]
+}

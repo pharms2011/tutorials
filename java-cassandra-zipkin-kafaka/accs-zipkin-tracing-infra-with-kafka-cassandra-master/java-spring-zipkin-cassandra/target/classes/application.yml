@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: zipkin-server
+
+zipkin:
+  storage:
+    type: cassandra3
+    cassandra3:
+      keyspace: zipkin
+      contact-points: 172.17.0.4, 172.17.0.3, 172.17.0.2
+      use-ssl: true
+
+server:
+  port: 9411
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka
+    register-with-eureka: true
+
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
